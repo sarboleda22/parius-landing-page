@@ -85,8 +85,14 @@ body #main {
 /* End of Navbar */
 
 
-@media (max-width: 768px) {
-	.
+@media screen and (max-width: 768px) {
+	.fullscreen-video-wrap video {
+		display: none;
+	}
+
+	.fullscreen-video-wrap img {
+		height: 100vh;
+	}
 
 	.header-content h1{
 		font-size: 40px; 
