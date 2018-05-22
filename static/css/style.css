@@ -11,6 +11,10 @@ body {
 	overflow-x: hidden;
 }
 
+body #main {
+	overflow-x: hidden;
+}
+
 .container {
 	max-width: 960px;
 	padding-left: 2rem;
