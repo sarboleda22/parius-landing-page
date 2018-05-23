@@ -167,11 +167,12 @@ section {
 	}
 
 	.header-caption {
-	  	margin-left: 3em;
+	  	margin: auto !important;
+	  	width: 80%;
 	}
 
 	.header-title {
-	  	font-size: 28px;
+	  	font-size: 32px;
 	}
 	/* --- End Header and Video --- */
 }
