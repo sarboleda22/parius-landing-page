@@ -15,14 +15,8 @@ body #main {
 	overflow-x: hidden;
 }
 
-section {
-	text-align: center;
-	margin-top: 50px;
-	font-size: 1.5rem;
-}
-
 .container {
-	max-width: 960px;
+	max-width: 1220px;
 	padding-left: 2rem;
 	padding-right: 2rem;
 	margin: auto;
@@ -132,6 +126,52 @@ section {
 }
 
 /* End of Navbar */
+
+/* --- Content --- */
+.module-medium {
+  padding: 75px 0px;
+}
+
+.module-title {
+  position: relative;
+  text-align: center;
+  font-weight: 300;
+  font-size: 27px;
+  color: #4b4b4b;
+}
+
+.module-subtitle {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  color: #666;
+}
+/* --- End Content --- */
+
+/* --- Buttons --- */
+.btn {
+  border-radius: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding: 8px 37px;
+}
+
+.btn.btn-circle {
+  border-radius: 30px;
+}
+
+.btn.btn-g {
+  background: rgb(56,137,80);
+  border-color: rgb(56,137,80);
+  color: #fff;
+}
+
+.btn.btn-g:hover,
+.btn.btn-g:focus {
+  background: rgb(56,137,80);
+  color: #fff;
+}
+/* --- End Buttons --- */
 
 
 @media screen and (max-width: 768px) {
