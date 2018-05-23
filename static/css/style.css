@@ -24,7 +24,7 @@ body #main {
 }
 
 
-/* ------ Header Video ------- */
+/* ------ Header and Video ------- */
 .video-header {
 	height: 100vh;
 	display: flex;
@@ -76,7 +76,7 @@ body #main {
 	padding-bottom: 2rem;
 	margin-top: 10px; 
 }
-/* ------ End of Video ------- */
+/* ------ End of Header ------- */
 
 
 
@@ -85,6 +85,10 @@ body #main {
 	z-index: 10;
 	padding-left: 3em;
 	padding-right: 3em;
+}
+
+.navbar-brand .mobile {
+	display: none;
 }
 
 .navbar-custom {
@@ -102,14 +106,25 @@ body #main {
 
 .navbar-transparent {
   background: transparent;
-  padding-bottom: 15px;
-  padding-top: 15px;
   border-bottom: 1px solid transparent;
 }
 /* End of Navbar */
 
 
 @media screen and (max-width: 768px) {
+	.navbar-transparent {
+	  background-color: #fff;
+	  border-bottom: 1px solid #eaeaea;
+	}
+
+	.navbar-brand .mobile {
+		display: block !important;
+	}
+
+	.navbar-brand .desktop {
+		display: none !important;
+	}
+
 	.fullscreen-video-wrap video {
 		display: none;
 	}

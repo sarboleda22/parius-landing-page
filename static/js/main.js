@@ -5,6 +5,6 @@ $(window).scroll(function() {
   }
   else {
     $('.navbar').removeClass("navbar-custom");
-    $('.navbar .navbar-brand img').attr('src','static/images/logo-white.png');
+    $('#desktop-logo').attr('src','static/images/logo-white.png');
   }
 });
