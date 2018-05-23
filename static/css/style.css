@@ -83,8 +83,8 @@ body #main {
 /* -------- Navbar ------- */
 .navbar {
 	z-index: 10;
-	padding-left: 80px;
-	padding-right: 80px;
+	padding-left: 3em;
+	padding-right: 3em;
 }
 
 .navbar-custom {
