@@ -108,6 +108,15 @@ body #main {
   background: transparent;
   border-bottom: 1px solid transparent;
 }
+
+.navbar-transparent .navbar-nav .nav-item .nav-link {
+    color: rgba(255,255,255,0.7);
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+    color: #4b4b4b !important;
+}
+
 /* End of Navbar */
 
 
@@ -115,6 +124,10 @@ body #main {
 	.navbar-transparent {
 	  background-color: #fff;
 	  border-bottom: 1px solid #eaeaea;
+	}
+
+	.navbar-transparent .navbar-nav .nav-item .nav-link {
+	    color: #4b4b4b !important;
 	}
 
 	.navbar-brand .mobile {
