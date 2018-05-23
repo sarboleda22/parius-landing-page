@@ -83,8 +83,8 @@ body #main {
 /* -------- Navbar ------- */
 .navbar {
 	z-index: 10;
-	padding-left: 3em;
-	padding-right: 3em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 .navbar-brand .mobile {
@@ -121,6 +121,7 @@ body #main {
 
 
 @media screen and (max-width: 768px) {
+	/* --- Mobile Navbar --- */
 	.navbar-transparent {
 	  background-color: #fff;
 	  border-bottom: 1px solid #eaeaea;
@@ -137,6 +138,9 @@ body #main {
 	.navbar-brand .desktop {
 		display: none !important;
 	}
+	/* --- End Mobile Navbar --- */
+
+	/* --- Homepage Header and Video --- */
 
 	.fullscreen-video-wrap video {
 		display: none;
@@ -155,6 +159,7 @@ body #main {
 	.header-content p {
 		font-size: 1rem;
 	}
+	/* --- End Header and Video --- */
 }
 
 section {
