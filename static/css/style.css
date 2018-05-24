@@ -132,6 +132,7 @@ body #main {
   padding: 75px 0px;
 }
 
+
 .module-title {
   position: relative;
   text-align: center;
@@ -146,6 +147,17 @@ body #main {
   font-weight: 300;
   color: #666;
 }
+
+.client-logos img {
+	width: 100%;
+	filter: grayscale(100%);
+	opacity: 0.4;
+}
+
+.client-logos img:hover {
+	opacity: 1;
+}
+
 /* --- End Content --- */
 
 /* --- Buttons --- */
@@ -215,75 +227,39 @@ body #main {
 	  	font-size: 32px;
 	}
 	/* --- End Header and Video --- */
+
+	.nav-tabs {
+		background-color: #f8f9fa !important;
+	}
+
+	.nav-tabs > li > a.active {
+	  	font-weight: bold;
+	}
 }
 
 /* Vertical margin, padding */
-.p-0 {
-  padding: 0 !important;
+.mb-20 {
+  margin-bottom: 20px !important;
 }
 
 .pt-0 {
   padding-top: 0 !important;
 }
 
-.pt-10 {
-  padding-top: 10px !important;
-}
-
-.pt-20 {
-  padding-top: 20px !important;
-}
-
-.pt-30 {
-  padding-top: 30px !important;
-}
-
-.pt-40 {
-  padding-top: 40px !important;
-}
-
-.pt-50 {
-  padding-top: 50px !important;
-}
-
-.pt-100 {
-  padding-top: 100px !important;
-}
-
-.pt-140 {
-  padding-top: 140px !important;
-}
-
 .pb-0 {
   padding-bottom: 0 !important;
 }
 
-.pb-10 {
-  padding-bottom: 10px !important;
-}
-
-.pb-20 {
-  padding-bottom: 20px !important;
-}
-
-.pb-30 {
-  padding-bottom: 30px !important;
-}
-
-.pb-40 {
-  padding-bottom: 40px !important;
-}
-
-.pb-50 {
-  padding-bottom: 50px !important;
-}
-
-.pb-100 {
-  padding-bottom: 100px !important;
-}
-
 .pb-140 {
   padding-bottom: 140px !important;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.pt-140 {
+  padding-top: 140px !important;
 }
 
 .pr-50 {
@@ -293,94 +269,79 @@ body #main {
 .pl-30 {
   padding-left: 30px;
 }
-
-.m-0 {
-  margin: 0 !important;
+/*-------------*/
+/* Tabs */
+.tab-content .tab-pane {
+	padding: 0px;
 }
 
-.mt-0 {
-  margin-top: 0 !important;
+.tab-content hr {
+  margin-left: 0;
+  width: 25%;
+  border-top: 2px solid #337d49;
+}	
+
+.tab-pane a {
+  color: #337d49;
+  font-weight: 500;
 }
 
-.mt-10 {
-  margin-top: 10px !important;
+.position-relative {
+	  position: relative !important;
 }
 
-.mt-20 {
-  margin-top: 20px !important;
+/* Half-image */
+.side-image {
+	background-image: url("../images/plant.jpeg");
+	position: absolute;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
 }
 
-.mt-30 {
-  margin-top: 30px !important;
+.intro ul {
+	z-index: 1; 
+	padding-top: 0; 
 }
 
-.mt-40 {
-  margin-top: 40px !important;
+.intro ul li {
+	padding-top: 20px;
 }
 
-.mt-50 {
-  margin-top: 50px !important;
+.side-image-text {
+	background: transparent;
 }
 
-.mt-60 {
-  margin-top: 60px !important;
+.align-left {
+	text-align: left !important;
 }
 
-.mt-70 {
-  margin-top: 70px !important;
+.nav-tabs {
+	border-bottom: 0;
 }
 
-.mt-80 {
-  margin-top: 80px !important;
+.nav-tabs > li > a {
+	color: #777;
+	position: relative;
+    display: block;
+    padding: 10px 15px;
+    background-color: transparent;
 }
 
-.mb-0 {
-  margin-bottom: 0 !important;
+.nav-tabs > li > a:hover {
+	border: 1px solid transparent;
+  	background-color: #f8f9fa !important;
+  	text-decoration: none;
 }
 
-.mb-5 {
-  margin-bottom: 5 !important;
-}
-
-.mb-10 {
-  margin-bottom: 10px !important;
-}
-
-.mb-20 {
-  margin-bottom: 20px !important;
-}
-
-.mb-30 {
-  margin-bottom: 30px !important;
-}
-
-.mb-40 {
-  margin-bottom: 40px !important;
-}
-
-.mb-50 {
-  margin-bottom: 50px !important;
-}
-
-.mb-60 {
-  margin-bottom: 60px !important;
-}
-
-.mb-70 {
-  margin-bottom: 70px !important;
-}
-
-.mb-80 {
-  margin-bottom: 80px !important;
+.nav-tabs > li > a.active {
+	border: 1px solid transparent;
+  	background-color: #f8f9fa !important;
 }
 
 
 
-
-
-
-
-
-
-
-
+.font-alt {
+	text-transform: uppercase;
+}
