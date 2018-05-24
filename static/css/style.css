@@ -158,6 +158,39 @@ body #main {
 	opacity: 1;
 }
 
+.parallax-bg {
+	background-image: url('../images/grid.jpeg');
+  	background-attachment: fixed;
+  	background-size: cover;
+	overflow: hidden;
+}
+
+.carousel-inner .carousel-item {
+	padding: 100px 0 !important;
+}
+
+.carousel-caption {
+	position: relative;
+	right: 0;
+	left: 0;
+	padding-bottom: 0;
+}
+
+.carousel-caption h2 {
+  text-align: center;
+  font-style: normal;
+  font-size: 22px;
+}
+
+.carousel-caption h3 {
+	font-size: 18px;
+}
+
+.carousel-caption h4 {
+	color: rgba(255, 255, 255, 0.5);
+ 	font-size: 16px;
+}
+
 /* --- End Content --- */
 
 /* --- Buttons --- */
@@ -252,6 +285,10 @@ body #main {
 
 .pb-140 {
   padding-bottom: 140px !important;
+}
+
+.pb-30 {
+  padding-bottom: 30px !important;
 }
 
 .m-0 {
