@@ -129,6 +129,14 @@ a {
     color: #4b4b4b !important;
 }
 
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-toggle::after {
+    display:none
+}
+
 /* End of Navbar */
 
 /* --- Content --- */
