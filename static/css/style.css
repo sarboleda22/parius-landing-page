@@ -15,6 +15,10 @@ body #main {
 	overflow-x: hidden;
 }
 
+a {
+    color: #337d49;
+}
+
 .container {
 	max-width: 1220px;
 	padding-left: 2rem;
@@ -216,6 +220,68 @@ body #main {
   background: rgb(56,137,80);
   color: #fff;
 }
+
+.projects hr {
+  margin-left: auto;
+  width: 25%;
+  left: 50%;
+  border-top: 2px solid #337d49;
+}
+
+.projects a p {
+	color: #666;
+}
+
+.projects a:hover {
+	color: #337d49;
+  	text-decoration: none;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: auto;
+    width: 20rem;
+    margin-bottom: 20px;
+    opacity: 0.9;	
+}
+
+.card:hover {
+    opacity: 1;
+}
+
+.card-img-top {
+	height: 16vw;
+	object-fit: cover;
+}
+
+.footer p {
+  color: #aaa;
+}
+
+.footer a {
+  color: #aaa;
+}
+
+.footer a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+footer .fab {
+    color: #fff;
+  	display: inline-block;
+	padding: 10px 6px;
+	height: 36px;
+	width: 36px;
+	background-color: #aaa;
+	border-radius: 50%;
+	margin: 3px;
+}
+
+footer .fab:hover {
+	background-color: #333;
+}
+
 /* --- End Buttons --- */
 
 
@@ -283,6 +349,10 @@ body #main {
 }
 
 /* Vertical margin, padding */
+.m-0 {
+  margin: 0 !important;
+}
+
 .mb-20 {
   margin-bottom: 20px !important;
 }
@@ -295,29 +365,34 @@ body #main {
   padding-bottom: 0 !important;
 }
 
-.pb-140 {
-  padding-bottom: 140px !important;
-}
-
 .pb-30 {
   padding-bottom: 30px !important;
 }
 
-.m-0 {
-  margin: 0 !important;
-}
-
-.pt-140 {
-  padding-top: 140px !important;
+.pl-30 {
+  padding-left: 30px;
 }
 
 .pr-50 {
   padding-right: 50px !important;
 }
 
-.pl-30 {
-  padding-left: 30px;
+.pt-100 {
+	padding-top: 100px !important;
 }
+
+.pb-100 {
+	padding-bottom: 100px !important;
+}
+
+.pb-140 {
+  padding-bottom: 140px !important;
+}
+
+.pt-140 {
+  padding-top: 140px !important;
+}
+
 /*-------------*/
 /* Tabs */
 .tab-content .tab-pane {
