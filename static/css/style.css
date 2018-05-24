@@ -268,6 +268,18 @@ body #main {
 	.nav-tabs > li > a.active {
 	  	font-weight: bold;
 	}
+
+	.carousel-caption h2 {
+		font-size: 18px;
+	}
+
+	.carousel-caption h3 {
+		font-size: 15px;
+	}
+
+	.carousel-caption h4 {
+		font-size: 14px;
+	}
 }
 
 /* Vertical margin, padding */
