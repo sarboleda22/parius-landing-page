@@ -52,6 +52,67 @@ a {
 	text-align: center;
 }
 
+.office-image {
+	background-image: url("../images/office.jpg");
+	height: 80vh;
+}
+
+.bg-dark-60:before {
+  position: absolute;
+  background: rgba(34, 34, 34, 0.8);
+  content: " ";
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+/* -------- Navbar ------- */
+.navbar {
+	z-index: 10;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.navbar-brand .mobile {
+	display: none;
+}
+
+.navbar-custom {
+	background-color: #fff !important;
+	border: 0;
+	border-radius: 0;
+	z-index: 1000;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	transition: background, padding 0.4s ease-in-out 0s;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.navbar-transparent {
+  background: transparent;
+  border-bottom: 1px solid transparent;
+}
+
+.navbar-transparent .navbar-nav .nav-item .nav-link {
+    color: rgba(255,255,255,0.7);
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+    color: #4b4b4b !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-toggle::after {
+    display:none
+}
+
+/* End of Navbar */
 
 /* ------ Homepage Header and Video ------- */
 .video-header {
@@ -175,54 +236,7 @@ a {
 }
 /* ------ End of About Page Video Header ------- */
 
-/* -------- Navbar ------- */
-.navbar {
-	z-index: 10;
-	padding-left: 1em;
-	padding-right: 1em;
-}
-
-.navbar-brand .mobile {
-	display: none;
-}
-
-.navbar-custom {
-	background-color: #fff !important;
-	border: 0;
-	border-radius: 0;
-	z-index: 1000;
-	font-family: "Roboto", sans-serif;
-	font-size: 16px;
-	transition: background, padding 0.4s ease-in-out 0s;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	border-bottom: 1px solid #eaeaea;
-}
-
-.navbar-transparent {
-  background: transparent;
-  border-bottom: 1px solid transparent;
-}
-
-.navbar-transparent .navbar-nav .nav-item .nav-link {
-    color: rgba(255,255,255,0.7);
-}
-
-.navbar-custom .navbar-nav .nav-item .nav-link {
-    color: #4b4b4b !important;
-}
-
-.dropdown:hover>.dropdown-menu {
-  display: block;
-}
-
-.dropdown-toggle::after {
-    display:none
-}
-
-/* End of Navbar */
-
-/* --- Content --- */
+/* --- General Content --- */
 .module {
   position: relative;
   padding: 140px 0;
@@ -292,6 +306,42 @@ a {
 .carousel-caption h4 {
 	color: rgba(255, 255, 255, 0.5);
  	font-size: 16px;
+}
+
+	/* ----Team Members------*/
+
+section.module.team {
+	margin: 50px;
+}
+
+.team-member {
+    margin: auto;
+    margin-bottom: 20px;
+    height: 100%;
+    border: none;
+}
+
+.team-member:hover {
+  filter: brightness(50%);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.team-member-img {
+	height: 25vw;
+	object-fit: cover;
+}
+
+img.team-member-img {
+	width: 100%;
+}
+
+.team-info {
+	padding: 20px;
+}
+
+.team-info p {
+  font-size: 14px;
+  color: #aaa;
 }
 
 /* --- End Content --- */
@@ -449,6 +499,16 @@ footer .fab:hover {
 
 	.card {
 		height: auto;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.team .module-medium {
+		padding-bottom: 0 !important;
+	}
+
+	.team-member-img {
+		height: 50vw !important;
 	}
 }
 
