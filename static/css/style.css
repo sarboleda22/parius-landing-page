@@ -256,6 +256,9 @@ a {
   padding: 75px 0px;
 }
 
+.module-small {
+  padding: 30px 0;
+}
 
 .module-title {
   position: relative;
@@ -315,8 +318,6 @@ a {
  	font-size: 16px;
 }
 
-	/* ----Team Members------*/
-
 section.module.team {
 	margin: 50px;
 }
@@ -351,6 +352,14 @@ img.team-member-img {
   color: #aaa;
 }
 
+.news .module-title {
+	padding-bottom: 5px
+}
+
+.news .container .module-title, .module-subtitle {
+	text-align: left !important;
+}
+
 /* --- End Content --- */
 
 /* --- Buttons --- */
@@ -376,6 +385,20 @@ img.team-member-img {
   background: rgb(56,137,80);
   color: #fff;
 }
+
+.btn-border-g {
+  background: transparent;
+  border: 1px solid rgb(56,137,80);
+  color: rgb(56,137,80);
+}
+
+.btn.btn-border-g:hover,
+.btn.btn-border-g:focus {
+  background: rgb(56,137,80);
+  color: #fff;
+}
+
+/* --- End of buttons --- */
 
 .projects hr {
   margin-left: auto;
@@ -506,6 +529,10 @@ footer .fab:hover {
 
 	.card {
 		height: auto;
+	}
+
+	img.news-img {
+		padding-bottom: 20px;
 	}
 }
 
