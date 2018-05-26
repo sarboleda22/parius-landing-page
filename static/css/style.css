@@ -44,6 +44,10 @@ a {
     color: #337d49;
 }
 
+b {
+	font-weight: 700 !important;
+} 
+
 .container {
 	max-width: 1220px;
 	padding-left: 2rem;
@@ -358,10 +362,6 @@ img.team-member-img {
 .post {
   width: 70%;
   margin: auto;
-}
-
-.post .email {
-	font-weight: 700;
 }
 
 .features-item {
