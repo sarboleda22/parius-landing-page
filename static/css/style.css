@@ -52,11 +52,6 @@ a {
 	text-align: center;
 }
 
-.office-image {
-	background-image: url("../images/office.jpg");
-	height: 80vh;
-}
-
 .bg-dark-60:before {
   position: absolute;
   background: rgba(34, 34, 34, 0.8);
@@ -356,8 +351,8 @@ img.team-member-img {
 	padding-bottom: 5px
 }
 
-.news .container .module-title, .module-subtitle {
-	text-align: left !important;
+.news .container .module-title, .news .container .module-subtitle {
+	text-align: left;
 }
 
 .post {
@@ -367,6 +362,21 @@ img.team-member-img {
 
 .post .email {
 	font-weight: 700;
+}
+
+.features-item {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.features-item .module-subtitle {
+	text-align: center !important;
+}
+
+.features-icon {
+  line-height: 1.2;
+  font-size: 50px;
+  color: #337d49;
 }
 
 /* --- End Content --- */
