@@ -360,6 +360,15 @@ img.team-member-img {
 	text-align: left !important;
 }
 
+.post {
+  width: 70%;
+  margin: auto;
+}
+
+.post .email {
+	font-weight: 700;
+}
+
 /* --- End Content --- */
 
 /* --- Buttons --- */
@@ -533,6 +542,10 @@ footer .fab:hover {
 
 	img.news-img {
 		padding-bottom: 20px;
+	}
+
+	.post {
+	  width: 100%;
 	}
 }
 
