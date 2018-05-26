@@ -224,6 +224,13 @@ a {
 	object-fit: cover;
 }
 
+.about-fullscreen-video-wrap img {
+	min-width: 100%;
+	min-height: 100%;
+	width: 100vw;
+	object-fit: cover;
+}
+
 .about-header-overlay {
 	height: 85vh;
 	width: 100vw;
