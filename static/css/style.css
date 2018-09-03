@@ -69,8 +69,8 @@ b {
 /* -------- Navbar ------- */
 .navbar {
 	z-index: 10;
-	padding-left: 1em;
-	padding-right: 1em;
+	padding-left: 17%;
+	padding-right: 17%;
 }
 
 .navbar-brand .mobile {
@@ -153,8 +153,8 @@ b {
 	display: table;
 	height: 100%;
 	margin: 0 auto;
-	margin-left: 10em;
-	width: 50%;
+	margin-left: 17%;
+	width: 30%;
 	padding-top: 6em; 
 }
 
@@ -170,7 +170,7 @@ b {
 }
 
 .header-subtitle {
-	font-size: 18px;
+	font-size: 32px;
   	color: #d7d7d7
 }
 /* ------ End of Homepage Video Header ------- */
@@ -385,7 +385,7 @@ img.team-member-img {
 .btn {
   border-radius: 0;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   padding: 8px 37px;
 }
 
@@ -394,26 +394,26 @@ img.team-member-img {
 }
 
 .btn.btn-g {
-  background: rgb(56,137,80);
-  border-color: rgb(56,137,80);
+  background: #FF872E;
+  border-color: #FF872E;
   color: #fff;
 }
 
 .btn.btn-g:hover,
 .btn.btn-g:focus {
-  background: rgb(56,137,80);
+  background: #FF872E;
   color: #fff;
 }
 
 .btn-border-g {
   background: transparent;
-  border: 1px solid rgb(56,137,80);
-  color: rgb(56,137,80);
+  border: 1px solid #FF872E;
+  color: #FF872E;
 }
 
 .btn.btn-border-g:hover,
 .btn.btn-border-g:focus {
-  background: rgb(56,137,80);
+  background: #FF872E;
   color: #fff;
 }
 
@@ -484,8 +484,9 @@ footer .fab:hover {
 /* --- End Buttons --- */
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 998px) {
 	/* --- Mobile Navbar --- */
+
 	.navbar-transparent {
 	  background-color: #fff;
 	  border-bottom: 1px solid #eaeaea;
@@ -497,10 +498,12 @@ footer .fab:hover {
 
 	.navbar-brand .mobile {
 		display: block !important;
+		height: 45px;
 	}
 
 	.navbar-brand .desktop {
 		display: none !important;
+		height: 45px;
 	}
 	/* --- End Mobile Navbar --- */
 
@@ -560,6 +563,11 @@ footer .fab:hover {
 }
 
 @media screen and (max-width: 1199px) {
+	.navbar {
+		padding-left: 3em;
+		padding-right: 3em;
+	}
+
 	.team .module-medium {
 		padding-bottom: 0 !important;
 	}
