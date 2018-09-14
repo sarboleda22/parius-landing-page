@@ -169,6 +169,12 @@ b {
   	font-size: 56px;
 }
 
+.header-title-dark {
+	font-weight: 300;
+  	font-size: 56px;
+  	color: #4b4b4b;
+}
+
 .header-subtitle {
 	font-size: 32px;
   	color: #d7d7d7
@@ -390,7 +396,7 @@ img.team-member-img {
 }
 
 .btn.btn-circle {
-  border-radius: 30px;
+  border-radius: 3px;
 }
 
 .btn.btn-g {
@@ -418,22 +424,6 @@ img.team-member-img {
 }
 
 /* --- End of buttons --- */
-
-.projects hr {
-  margin-left: auto;
-  width: 25%;
-  left: 50%;
-  border-top: 2px solid #337d49;
-}
-
-.projects a p {
-	color: #666;
-}
-
-.projects a:hover {
-	color: #337d49;
-  	text-decoration: none;
-}
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -590,6 +580,10 @@ footer .fab:hover {
   padding-top: 0 !important;
 }
 
+.pt-40 {
+	padding-top: 40px !important;
+}
+
 .pb-0 {
   padding-bottom: 0 !important;
 }
@@ -651,15 +645,6 @@ footer .fab:hover {
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	background-size: cover;
-}
-
-.intro ul {
-	z-index: 1; 
-	padding-top: 0; 
-}
-
-.intro ul li {
-	padding-top: 20px;
 }
 
 .side-image-text {
