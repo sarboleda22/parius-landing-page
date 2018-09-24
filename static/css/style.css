@@ -41,7 +41,11 @@ img {
 }
 
 a {
-    color: #337d49;
+    color: #FF872E;
+}
+
+a:hover {
+	color: #FF872E;	
 }
 
 b {
@@ -166,8 +170,9 @@ b {
 }
 
 .header-title {
-	font-weight: 300;
+	font-weight: 500;
   	font-size: 56px;
+  	color: #112d50;
 }
 
 .header-title-dark {
