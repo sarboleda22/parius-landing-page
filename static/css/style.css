@@ -105,7 +105,8 @@ b {
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
-    color: #4b4b4b !important;
+    color: rgba(0,0,0,.5) !important;
+    /*color: #4b4b4b !important;*/
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -120,7 +121,7 @@ b {
 
 /* ------ Homepage Header and Video ------- */
 .video-header {
-	height: 100vh;
+	height: 90vh;
 	display: flex;
 	align-items: center;
 	color: white;
@@ -130,7 +131,7 @@ b {
 	position: absolute;
 	top: 0;
 	left: 0;
-	height: 100vh;
+	height: 90vh;
 	width: 100%;
 	overflow: hidden;
 }
@@ -143,7 +144,7 @@ b {
 }
 
 .header-overlay {
-	height: 100vh;
+	height: 90vh;
 	width: 100vw;
 	position: absolute;
 	top: 0;
@@ -170,15 +171,15 @@ b {
 }
 
 .header-title {
-	font-weight: 500;
-  	font-size: 56px;
-  	color: #112d50;
-}
-
-.header-title-dark {
 	font-weight: 300;
   	font-size: 56px;
-  	color: #4b4b4b;
+  	color: #d7d7d7;/*#112d50;*/
+}
+
+.header-title-blue {
+	font-weight: 300;
+  	font-size: 56px;
+  	color: #112d50;/*#112d50;*/
 }
 
 .header-subtitle {
@@ -276,8 +277,12 @@ b {
   position: relative;
   text-align: center;
   font-weight: 300;
-  font-size: 27px;
-  color: #4b4b4b;
+  font-size: 36px;
+  color: #4b4b4b7d; 
+}
+
+.module-title-dark {
+	color: #4b4b4b;
 }
 
 .module-subtitle {
@@ -400,6 +405,7 @@ img.team-member-img {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   padding: 10px;
+  font-weight: 300;
 }
 
 .btn.btn-circle {
@@ -477,6 +483,11 @@ footer .fab:hover {
 
 /* --- End Buttons --- */
 
+@media screen and (max-width: 1411px) {
+	.header-title {
+	  	font-size: 32px;
+	}
+}
 
 @media screen and (max-width: 998px) {
 	/* --- Mobile Navbar --- */

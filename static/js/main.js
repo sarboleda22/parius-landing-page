@@ -1,4 +1,4 @@
-$(window).scroll(function() {
+/*$(window).scroll(function() {
   if ($(this).scrollTop() > 1){  
     $('.navbar').addClass("navbar-custom");
     $('.navbar .navbar-brand img').attr('src','static/images/horizontal_logo.png');
@@ -9,4 +9,4 @@ $(window).scroll(function() {
     $('#desktop-logo').attr('src','static/images/new_edit_transparent.png');
     $('#desktop-logo').attr('height','120');
   }
-});
+});*/
