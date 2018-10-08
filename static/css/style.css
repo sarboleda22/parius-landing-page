@@ -450,6 +450,7 @@ img.team-member-img {
 
 .card-img-top {
 	object-fit: cover;
+	max-height: 335px;
 	height: 100%;
 }
 
