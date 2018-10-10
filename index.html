@@ -27,7 +27,6 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
@@ -41,12 +40,12 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/parius-landing-page/recursos.html">
                 Recursos
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/parius-landing-page/contacto.html">
               Contacto
             </a>
             </li>
@@ -65,7 +64,7 @@
               <div class="header-title mb-10"">Mercado Internacional</div>
               <div class="header-subtitle" style="color: white;">Moviendo bienes y servicios colombianos</div>
               <br>
-              <a class="section-scroll btn btn-g" href="#">Exporta con nosotros</a>
+              <button id="myBtn" class="section-scroll btn btn-g">Exporta con nosotros</button>
             </div>
           </div>
         </div>
@@ -90,6 +89,51 @@
             </div>
           </div>
         </section>
+        <!-- The Registration Modal -->
+        <div id="myModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-body">
+              <span class="close">&times;</span>
+              <br>
+              <div class="module-title">Crear una Cuenta</div>
+              <hr>
+              <p class="module-subtitle">Gracias por tu interés en exportar con nosotros. Al hacer click entendemos que eres productor con interés de colocar tu producto en el mercado internacional. A continuación, te  invitamos a registrarte registre para validar tu solicitud.</p>
+              <br>
+              <form action="#" id="registrationForm">
+                <input type="email" name="email" placeholder="Email">
+                <br>
+                <br>
+                <input type="text" name="firstname" placeholder="First Name">
+                <br>
+                <br>
+                <input type="text" name="lastname" placeholder="Last Name">
+                <br>
+                <br>
+                <input type="submit" class="btn btn-g" style="background-color: #112d50; border-color: #112d50; font-size: 18px;" value="Registrar">
+                <br>
+                <br>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- End of REGISTRATION MODAL -->
+        <!-- The Success Modal -->
+        <div id="mySuccessModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-body">
+              <span class="close">&times;</span>
+              <br>
+              <i class="fas fa-check-circle fa-7x" style="color: #4caf50; margin-top: -60px; border: none; padding: 0.15em;"></i>
+              <div class="module-title">Success!</div>
+              <hr>
+              <p class="module-subtitle">Tu solicitud ha sido registrada, en menos de 24 horas nos colocaremos en contacto con usted.</p>
+              <br>
+            </div>
+          </div>
+        </div>
+        <!-- End of REGISTRATION MODAL -->
         <section class="module m-0 pt-0">
           <section class="module-medium bg-light projects pt-0 pb-0">
             <div class="module-medium pt-0">
@@ -177,278 +221,17 @@
                     <br>
                     <div class="module-subtitle">Beneficiese de nuestra red comercial.</div>
                     <br>
-                    <a class="section-scroll btn btn-g btn-circle" href="#">Asociese con Nosotros</a>
+                    <button id="myBtn2" class="section-scroll btn btn-g">Asociese con Nosotros</button>
                   </div>
                 </div>
               </div>
             </section>
-          <!-- 
-          <section class="module-medium bg-light projects pt-0 pb-0">
-            <div class="module-medium pt-0">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="card" style='margin-right: 0;'>
-                    <img class="card-img-top" src="static/images/melon.jpeg" alt="Card image cap">
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="card" style='margin-left: 0;'>
-                    <div class="row">
-                      <div class="col-lg-8 offset-lg-2 side-image-text pt-140 pb-140">
-                        <h2 class="header-title-dark">Melon HBRD</h2>
-                        <br>
-                        <div class="module-subtitle">
-                          <p>Fairbanks Energy Services is a full-service design/build energy conservation firm dedicated to providing cost-effective retrofit solutions for our clients.</p>
-                          <br>
-                          <a class="section-scroll btn btn-g btn-circle" href="#">Comprar</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section class="module-medium bg-light projects pt-0 pb-0">
-            <div class="module-medium pt-0">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="card" style='margin-right: 0;'>
-                    <div class="row">
-                      <div class="col-lg-8 offset-lg-2 side-image-text pt-140 pb-140">
-                        <h2 class="header-title-dark">Panela</h2>
-                        <br>
-                        <div class="module-subtitle">
-                          <p>Fairbanks Energy Services is a full-service design/build energy conservation firm dedicated to providing cost-effective retrofit solutions for our clients.</p>
-                          <br>
-                          <a class="section-scroll btn btn-g btn-circle" href="#">Comprar</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="card" style='margin-left: 0;'>
-                    <img class="card-img-top" src="static/images/panela.jpg" alt="Card image cap">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <div class="row">
-            <div class="col-lg-7 bg-white">
-              <div class="row">
-                <div class="col-lg-8 offset-lg-2 side-image-text pt-140 pb-140">
-                  <h2 class="header-title-dark align-left">Melon HBRD</h2>
-                  <br>
-                  <div class="align-left module-subtitle">
-                    <p>Fairbanks Energy Services is a full-service design/build energy conservation firm dedicated to providing cost-effective retrofit solutions for our clients.</p>
-                    <br>
-                    <a class="section-scroll btn btn-g btn-circle" href="#">Comprar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 offset-lg-6 pt-40" style="position: absolute;">
-              <img src="static/images/melon.jpeg" class="float-center">
-            </div>
-          </div>
-          <div class="module">
-            <div class="row">
-              <div class="col-lg-7 offset-lg-5 bg-white">
-                <div class="row">
-                  <div class="col-lg-8 offset-lg-2 side-image-text pt-140 pb-140">
-                    <h2 class="header-title-dark align-left">Cacao</h2>
-                    <br>
-                    <div class="align-left module-subtitle">
-                      <p>Fairbanks Energy Services is a full-service design/build energy conservation firm dedicated to providing cost-effective retrofit solutions for our clients.</p>
-                      <br>
-                      <a class="section-scroll btn btn-g btn-circle" href="#">Comprar</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 pt-40" style="position: absolute;">
-                <img src="static/images/cacao.jpeg" class="float-center">
-              </div>
-            </div>
-          </div>
-          <div class="module pt-0 pb-0">
-            <div class="row">
-              <div class="col-lg-7 bg-white">
-                <div class="row">
-                  <div class="col-lg-8 offset-lg-2 side-image-text pt-140 pb-140">
-                    <h2 class="header-title-dark align-left">Panela</h2>
-                    <br>
-                    <div class="align-left module-subtitle">
-                      <p>Fairbanks Energy Services is a full-service design/build energy conservation firm dedicated to providing cost-effective retrofit solutions for our clients.</p>
-                      <br>
-                      <a class="section-scroll btn btn-g btn-circle" href="#">Comprar</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 offset-lg-6 pt-40" style="position: absolute;">
-                <img src="static/images/panela.jpeg" class="float-center">
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-      <section class="module bg-light pb-40">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 offset-sm-2">
-              <h2 class="header-title wow fadeInUp" style="color: black;">Mercado Saludable.</h2>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="module m-0 pt-0">
-        <section class="module-medium bg-light projects pt-0 pb-0">
-          <div class="module-medium pt-0">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="card" style='margin-right: 0;'>
-                  <div class="row">
-                    <div class="col-lg-8 offset-lg-2 side-image-text pt-140 pb-140">
-                      <h2 class="header-title-dark">Nutella Fit</h2>
-                      <br>
-                      <div class="module-subtitle">
-                        <p>Fairbanks Energy Services is a full-service design/build energy conservation firm dedicated to providing cost-effective retrofit solutions for our clients.</p>
-                        <br>
-                        <a class="section-scroll btn btn-g btn-circle" href="#">Comprar</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="card" style='margin-left: 0;'>
-                  <img class="card-img-top" src="static/images/nutella-fit.jpeg" alt="Card image cap">
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="module-medium bg-light projects pt-0 pb-0">
-          <div class="module-medium pt-0">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="card" style='margin-right: 0;'>
-                  <img class="card-img-top" src="static/images/mant-choc.jpg" alt="Card image cap">
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="card" style='margin-left: 0;'>
-                  <div class="row">
-                    <div class="col-lg-8 offset-lg-2 side-image-text pt-140 pb-140">
-                      <h2 class="header-title-dark">Mantequilla de Chocolate</h2>
-                      <br>
-                      <div class="module-subtitle">
-                        <p>Fairbanks Energy Services is a full-service design/build energy conservation firm dedicated to providing cost-effective retrofit solutions for our clients.</p>
-                        <br>
-                        <a class="section-scroll btn btn-g btn-circle" href="#">Comprar</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="module-medium bg-light projects pt-0 pb-0">
-          <div class="module-medium pt-0">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="card" style='margin-right: 0;'>
-                  <div class="row">
-                    <div class="col-lg-8 offset-lg-2 side-image-text pt-140 pb-140">
-                      <h2 class="header-title-dark">Malteadas</h2>
-                      <br>
-                      <div class="module-subtitle">
-                        <p>Fairbanks Energy Services is a full-service design/build energy conservation firm dedicated to providing cost-effective retrofit solutions for our clients.</p>
-                        <br>
-                        <a class="section-scroll btn btn-g btn-circle" href="#">Comprar</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="card" style='margin-left: 0;'>
-                  <img class="card-img-top" src="static/images/milkshake.jpeg" alt="Card image cap">
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      <section class="module-medium bg-light projects pt-0 pb-0">
-        <div class="row">
-          <div class="col-lg-7 bg-light">
-            <div class="row">
-              <div class="col-lg-8 offset-lg-2 side-image-text pt-140 pb-140">
-                <h2 class="header-title-dark align-left">Nutella Fit</h2>
-                <br>
-                <div class="align-left module-subtitle">
-                  <p>Fairbanks Energy Services is a full-service design/build energy conservation firm dedicated to providing cost-effective retrofit solutions for our clients.</p>
-                  <br>
-                  <a class="section-scroll btn btn-g btn-circle" href="#">Comprar</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 offset-lg-6 pt-40" style="position: absolute;">
-            <img src="static/images/nutella-fit.jpeg" class="float-center">
-          </div>
-        </div>
-        <div class="module">
-          <div class="row">
-            <div class="col-lg-7 offset-lg-5 bg-light">
-              <div class="row">
-                <div class="col-lg-8 offset-lg-2 side-image-text pt-140 pb-140">
-                  <h2 class="header-title-dark align-left">Mantequilla de Chocolate</h2>
-                  <br>
-                  <div class="align-left module-subtitle">
-                    <p>Fairbanks Energy Services is a full-service design/build energy conservation firm dedicated to providing cost-effective retrofit solutions for our clients.</p>
-                    <br>
-                    <a class="section-scroll btn btn-g btn-circle" href="#">Comprar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 pt-40" style="position: absolute;">
-              <img src="static/images/mant-choc.jpg" class="float-center">
-            </div>
-          </div>
-        </div>
-        <div class="module pt-0">
-          <div class="row">
-            <div class="col-lg-7 bg-light">
-              <div class="row">
-                <div class="col-lg-8 offset-lg-2 side-image-text pt-140 pb-140">
-                  <h2 class="header-title-dark align-left">Malteadas</h2>
-                  <br>
-                  <div class="align-left module-subtitle">
-                    <p>Fairbanks Energy Services is a full-service design/build energy conservation firm dedicated to providing cost-effective retrofit solutions for our clients.</p>
-                    <br>
-                    <a class="section-scroll btn btn-g btn-circle" href="#">Comprar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 offset-lg-6 pt-40" style="position: absolute;">
-              <img src="static/images/milkshake.jpg" class="float-center">
-            </div>
-          </div>
-        </div>
-      </section> -->
     </section>
       <footer class="footer bg-light pt-100 pb-100">
         <div class="container">
           <div class="row">
             <div class="col-sm-4">
-              <p class="copyright text-left">&copy; Fairbanks Energy Services | All Rights Reserved</p>
+              <p class="copyright text-left">&copy; C.I. Parius & Larking | All Rights Reserved</p>
             </div>
             <div class="col-sm-4">
               <div class="footer-social-links"">
