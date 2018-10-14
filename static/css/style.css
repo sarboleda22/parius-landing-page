@@ -573,6 +573,11 @@ footer .fab:hover {
 	.header-title {
 	  	font-size: 48px;
 	}
+
+	.header-title-sm {
+	  	font-size: 37px;
+	  	font-weight: 200;
+	}
 }
 
 @media screen and (max-width: 998px) {
