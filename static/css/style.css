@@ -36,6 +36,10 @@ body #main {
 	overflow-x: hidden;
 }
 
+h2 {
+	font-weight: 200;
+}
+
 img {
 	max-width: 100%;
 }
@@ -258,7 +262,7 @@ a.contact-link {
 
 .header-title {
 	font-weight: 300;
-  	font-size: 72px;
+  	font-size: 48px;
   	color: #d7d7d7;/*#112d50;*/
 }
 
@@ -660,6 +664,18 @@ footer .fab:hover {
 }
 
 @media screen and (max-width: 1199px) {
+	.header-title {
+		font-size: 37px;
+	}
+
+	.header-subtitle {
+		font-size: 21px;
+	}
+
+	.module-title {
+		font-size: 24px;
+	}
+
 	.navbar {
 		padding-left: 3em;
 		padding-right: 3em;
