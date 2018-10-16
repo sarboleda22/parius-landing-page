@@ -598,8 +598,12 @@ footer .fab:hover {
 	}
 
 	.header-title-sm {
-	  	font-size: 37px;
+	  	font-size: 34px;
 	  	font-weight: 200;
+	}
+
+	.header-title-blue {
+		font-size: 37px;
 	}
 }
 
