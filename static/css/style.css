@@ -287,6 +287,12 @@ a.contact-link {
   	color: #d7d7d7;/*#112d50;*/
 }
 
+.header-title-sm {
+	font-weight: 200;
+	font-size: 37px;
+	text-align: left;
+}
+
 .header-title-blue {
 	font-weight: 300;
   	font-size: 56px;
@@ -596,15 +602,6 @@ footer .fab:hover {
 /* --- End Buttons --- */
 
 @media screen and (max-width: 1411px) {
-	.header-title {
-	  	font-size: 48px;
-	}
-
-	.header-title-sm {
-	  	font-size: 34px;
-	  	font-weight: 200;
-	}
-
 	.header-title-blue {
 		font-size: 37px;
 	}
@@ -716,6 +713,10 @@ footer .fab:hover {
 
 	.post {
 	  width: 100%;
+	}
+
+	.header-title-sm {
+	  	font-size: 32px;
 	}
 }
 
