@@ -342,7 +342,7 @@ a.contact-link {
 	position: absolute;
 	top: 0;
 	left: 0;
-	height: 85vh;
+	height: 90vh;
 	width: 100%;
 	overflow: hidden;
 }
@@ -351,6 +351,7 @@ a.contact-link {
 	min-width: 100%;
 	min-height: 100%;
 	width: 100vw;
+	height: 90vh;
 	object-fit: cover;
 }
 
@@ -358,11 +359,12 @@ a.contact-link {
 	min-width: 100%;
 	min-height: 100%;
 	width: 100vw;
+	height: 90vh;
 	object-fit: cover;
 }
 
 .about-header-overlay {
-	height: 85vh;
+	height: 90vh;
 	width: 100vw;
 	position: absolute;
 	top: 0;
@@ -602,13 +604,15 @@ footer .fab:hover {
 /* --- End Buttons --- */
 
 @media screen and (max-width: 1411px) {
-	.header-title-blue {
-		font-size: 37px;
-	}
+
 }
 
 @media screen and (max-width: 1199px) {
 	.header-title {
+		font-size: 37px;
+	}
+
+	.header-title-blue {
 		font-size: 37px;
 	}
 
