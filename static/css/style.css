@@ -217,6 +217,24 @@ a.contact-link {
 	color: white;
 }
 
+.fixed-background {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-color: black; 
+    text-align: left;
+    padding: 20px;
+    color: white;
+}
+
+.fixed-background.bg-1 {
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/que-obtienes.jpg");
+}
+
+.fixed-background.bg-2 {
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/economia-colaborativa.jpg");
+}
+
 .fullscreen-video-wrap {
 	position: absolute;
 	top: 0;
