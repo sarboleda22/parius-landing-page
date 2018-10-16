@@ -224,6 +224,8 @@ a.contact-link {
     background-color: black; 
     text-align: left;
     padding: 20px;
+    padding-right: 10%;
+    padding-left: 10%;
     color: white;
 }
 
@@ -607,6 +609,33 @@ footer .fab:hover {
 	}
 }
 
+@media screen and (max-width: 1199px) {
+	.header-title {
+		font-size: 37px;
+	}
+
+	.header-subtitle {
+		font-size: 21px;
+	}
+
+	.module-title {
+		font-size: 24px;
+	}
+
+	.navbar {
+		padding-left: 3em;
+		padding-right: 3em;
+	}
+
+	.team .module-medium {
+		padding-bottom: 0 !important;
+	}
+
+	.team-member-img {
+		height: 50vw !important;
+	}
+}
+
 @media screen and (max-width: 998px) {
 	/* --- Mobile Navbar --- */
 
@@ -652,6 +681,10 @@ footer .fab:hover {
 	}
 	/* --- End Header and Video --- */
 
+	.modal-content {
+		width: 60%;
+	}
+
 	.nav-tabs {
 		background-color: #f8f9fa !important;
 	}
@@ -685,32 +718,6 @@ footer .fab:hover {
 	}
 }
 
-@media screen and (max-width: 1199px) {
-	.header-title {
-		font-size: 37px;
-	}
-
-	.header-subtitle {
-		font-size: 21px;
-	}
-
-	.module-title {
-		font-size: 24px;
-	}
-
-	.navbar {
-		padding-left: 3em;
-		padding-right: 3em;
-	}
-
-	.team .module-medium {
-		padding-bottom: 0 !important;
-	}
-
-	.team-member-img {
-		height: 50vw !important;
-	}
-}
 
 /* Vertical margin, padding */
 .m-0 {
