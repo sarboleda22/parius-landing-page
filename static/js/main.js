@@ -69,11 +69,3 @@ window.onclick = function(event) {
         successModal.style.display = "none";
     }
 }
-
-// Success Modal after inputting info in form
-$('#registrationForm').on('submit', function(e){
-  successModal.style.display = "block";
-});
-$('#registrationForm').on('submit', function() {
-  modal.style.display = "none";
-});
